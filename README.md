@@ -1,5 +1,5 @@
 # Huellitas
-Proyecto persona sobre un aplicativo móvil para la reserva de paseo de mascotas 
+Proyecto personal sobre un aplicativo móvil para la reserva de paseo de mascotas 
 
 ![1](https://user-images.githubusercontent.com/85837821/189257577-1a2d51ce-1b1f-438c-b13e-c157806e2670.jpg)
 ![2](https://user-images.githubusercontent.com/85837821/189257580-52507954-8ada-4967-abf0-4c7fd172248b.jpg)

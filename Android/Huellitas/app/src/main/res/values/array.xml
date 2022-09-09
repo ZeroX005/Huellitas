@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones1_pendiente">
+        <item>Pendiente</item>
+        <item>En proceso</item>
+        <item>Finalizado</item>
+    </string-array>
+    <string-array name="opciones1_enproceso">
+        <item>En proceso</item>
+        <item>Pendiente</item>
+        <item>Finalizado</item>
+    </string-array>
+    <string-array name="opciones1_finalizado">
+        <item>Finalizado</item>
+        <item>Pendiente</item>
+        <item>En proceso</item>
+    </string-array>
+
+
+    <string-array name="opciones2_pendiente">
+        <item>Pendiente</item>
+        <item>En curso</item>
+        <item>Finalizado</item>
+    </string-array>
+    <string-array name="opciones2_encurso">
+        <item>En curso</item>
+        <item>Pendiente</item>
+        <item>Finalizado</item>
+    </string-array>
+    <string-array name="opciones2_finalizado">
+        <item>Finalizado</item>
+        <item>Pendiente</item>
+        <item>En curso</item>
+    </string-array>
+
+
+    <string-array name="opciones3_efectivo">
+        <item>Efectivo</item>
+        <item>Tarjeta</item>
+    </string-array>
+    <string-array name="opciones3_tarjeta">
+        <item>Tarjeta</item>
+        <item>Efectivo</item>
+    </string-array>
+</resources>

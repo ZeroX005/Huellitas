@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.edu.huellitas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".Intro"
+            android:theme="@style/AppTheme3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Loguin"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".Registro"
+            android:label="@string/Registro"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".Loading"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Loading2"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".Loading3"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".MenuCliente"
+            android:label="@string/title_activity_menu_cliente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuAdmin"
+            android:label="@string/title_activity_menu_admin"
+            android:theme="@style/AppTheme9.NoActionBar" />
+        <activity
+            android:name=".MenuPaseador"
+            android:label="@string/title_activity_menu_paseador"
+            android:theme="@style/AppTheme4.NoActionBar" />
+        <activity
+            android:name=".Perfil"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PerfilP"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".PerfilA"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ReservarPaseo"
+            android:label="@string/ReservaPaseo"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".HistorialPaseosPendientes"
+            android:label="@string/paseosPendientes"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".HistorialPaseosPendientes_detalle"
+            android:label="@string/detalleHistorialReserva"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".HistorialReservasFinalizadas"
+            android:label="@string/ReservasH"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".HistorialReservasFinalizadas_detalle"
+            android:label="@string/detalleHistorialReserva"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".MetodoPago"
+            android:label="@string/metodosPagos"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".AgregarTarjeta"
+            android:label="@string/agregarTarjeta"
+            android:theme="@style/AppTheme8" />
+        <activity
+            android:name=".Reclamo"
+            android:label="@string/reclamar"
+            android:theme="@style/AppTheme7" />
+        <activity
+            android:name=".HistorialReclamos"
+            android:label="@string/ReclamosH"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".HistorialReclamo_detalle"
+            android:label="@string/ReclamoDH"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".HistorialReclamoPetwalker"
+            android:label="@string/ReclamosH"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".HistorialReclamoPetwalker_detalle"
+            android:label="@string/ReclamoDH"
+            android:theme="@style/AppTheme6" />
+        <activity
+            android:name=".paseosLista"
+            android:label="@string/paseosPendientes"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".RealizarPaseo"
+            android:label="@string/realizarPaseo"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".PaseosPendientes"
+            android:label="@string/Paseoencurso"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".FinalizarPaseo"
+            android:label="@string/finalizarPaseo"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".PaseosRealizados"
+            android:label="@string/paseosRealizados"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".DetallePaseoRealizado"
+            android:label="@string/detReservaRealiza"
+            android:theme="@style/AppTheme4" />
+        <activity
+            android:name=".GenerarBackup"
+            android:theme="@style/AppTheme3" />
+        <activity
+            android:name=".DashboardReserva"
+            android:label="@string/dashboardReserva"
+            android:theme="@style/AppTheme9" />
+        <activity
+            android:name=".DashboardReclamo"
+            android:label="@string/dashboardReclamo"
+            android:theme="@style/AppTheme9" />
+        <activity
+            android:name=".DashboardUsuario"
+            android:label="@string/dashboardUsuario"
+            android:theme="@style/AppTheme9" />
+        <activity
+            android:name=".ListadoReclamo"
+            android:label="@string/listadoReclamo"
+            android:theme="@style/AppTheme8" />
+        <activity
+            android:name=".ListadoReserva"
+            android:label="@string/listadoReserva"
+            android:theme="@style/AppTheme8" />
+        <activity
+            android:name=".ListadoPetwalker"
+            android:label="@string/listadoPetwalker"
+            android:theme="@style/AppTheme8" />
+        <activity
+            android:name=".ListadoCliente"
+            android:label="@string/listadoCliente"
+            android:theme="@style/AppTheme8" />
+        <activity
+            android:name=".ReclamoCRUD"
+            android:label="@string/Reclamo"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".ReservaCRUD"
+            android:label="@string/Reserva"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".PetwalkerCRUD"
+            android:label="@string/Petwalker"
+            android:theme="@style/AppTheme5" />
+        <activity
+            android:name=".ClienteCRUD"
+            android:label="@string/Cliente"
+            android:theme="@style/AppTheme5" />
+
+        <activity
+            android:name=".RegistrarPetwalkerCRUD"
+            android:label="@string/RegistrarPetwalker"
+            android:theme="@style/AppTheme10"/>
+        <activity
+            android:name=".RegistrarClienteCRUD"
+            android:label="@string/RegistrarCliente"
+            android:theme="@style/AppTheme10"/>
+
+
+        <activity
+            android:name=".ActualizarReclamoCRUD"
+            android:label="@string/ActualizarReclamo"
+            android:theme="@style/AppTheme4"/>
+        <activity
+            android:name=".ActualizarReservaCRUD"
+            android:label="@string/ActualizarReserva"
+            android:theme="@style/AppTheme4"/>
+        <activity
+            android:name=".ActualizarPetwalkerCRUD"
+            android:label="@string/ActualizarPetwalker"
+            android:theme="@style/AppTheme4"/>
+        <activity
+            android:name=".ActualizarClienteCRUD"
+            android:label="@string/ActualizarCliente"
+            android:theme="@style/AppTheme4"/>
+    </application>
+
+</manifest>

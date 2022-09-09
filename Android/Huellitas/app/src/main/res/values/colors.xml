@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#06377A</color>
+    <color name="colorPrimaryRED">#BD4B18</color>
+    <color name="colorPrimaryDark">#2fd6d0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBoton">#32baec</color>
+    <color name="colorToolbar">#27aca7</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#43AA16</color>
+    <color name="colorGris">#aeb1ad</color>
+    <color name="colorRed">#ff380b</color>
+    <color name="colorMorado">#730dc1</color>
+    <color name="colorNaranja">#f49b01</color>
+    <color name="colorVERD">#10ca80</color>
+    <color name="colorBLUE">#181C5F</color>
+
+</resources>

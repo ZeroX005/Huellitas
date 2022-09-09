@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    tools:context=".AgregarTarjeta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/imagenvisa"
+            android:layout_marginBottom="30dp"/>
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:text="Número de Cuenta:"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:maxLength="4"
+                        android:textAlignment="center"
+                        android:hint="-"
+                        android:id="@+id/etn1"
+                        android:inputType="number"
+                        android:text=""/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:maxLength="4"
+                        android:textAlignment="center"
+                        android:hint="-"
+                        android:id="@+id/etn2"
+                        android:inputType="number"
+                        android:text=""/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:maxLength="4"
+                        android:textAlignment="center"
+                        android:hint="-"
+                        android:id="@+id/etn3"
+                        android:inputType="number"
+                        android:text=""/>
+
+                    <EditText
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:maxLength="4"
+                        android:textAlignment="center"
+                        android:hint="-"
+                        android:id="@+id/etn4"
+                        android:inputType="number"
+                        android:text=""/>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:text="Fecha Expiración:"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:maxLength="2"
+                    android:textAlignment="center"
+                    android:id="@+id/etmes"
+                    android:inputType="number"
+                    android:hint="Mes"
+                    android:text=""/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/"/>
+
+                <EditText
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:maxLength="2"
+                    android:textAlignment="center"
+                    android:id="@+id/etanio"
+                    android:hint="Año"
+                    android:inputType="number"
+                    android:text=""/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="100dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                        android:text="CCV:"/>
+
+
+                    <EditText
+                        android:layout_width="45dp"
+                        android:layout_height="wrap_content"
+                        android:maxLength="3"
+                        android:id="@+id/etccv"
+                        android:inputType="number"
+                        android:hint="xxx"
+                        android:text=""/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Nombres:"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:maxLength="40"
+                        android:id="@+id/etNomb_prop"
+                        android:hint="Ingresar nombres"
+                        android:text=""/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Apellidos:"/>
+
+
+                <EditText
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:maxLength="40"
+                    android:id="@+id/etApe_prop"
+                    android:hint="Ingresar apellidos"
+                    android:text=""/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:text="Registrar Tarjeta"
+            android:textColor="#ffff"
+            android:background="@color/colorGreen"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/btnAddCard"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cargando3"
+            android:gravity="center">
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </ProgressBar>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Huellitas</string>
+    <string name="Registrarse"><u>Registrarse</u></string>
+    <string name="title_activity_menu_cliente">Menú Cliente</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Registro">Registro de Usuario</string>
+    <string name="ReclamosH">Historial de Reclamos</string>
+    <string name="ReservaPaseo">Reservar Paseo</string>
+    <string name="ReservasH">Historial de Reservas</string>
+    <string name="Anuncios">Anuncios</string>
+    <string name="detalleAnuncio">Detalle de Anuncio</string>
+    <string name="detalleHistorialReserva">Detalle de Reserva</string>
+    <string name="reclamoDetalle">Detalle de Reclamo</string>
+    <string name="reclamar">Realizar Reclamo</string>
+    <string name="ReclamoDH">Detalle de reclamo</string>
+    <string name="title_activity_menu_paseador">Menú Paseador</string>
+    <string name="paseosPendientes">Paseos Pendientes</string>
+    <string name="realizarPaseo">Realizar Paseo</string>
+    <string name="Paseoencurso">Paseos En Curso</string>
+    <string name="finalizarPaseo">Finalizar Paseo</string>
+    <string name="paseosRealizados">Paseos Realizados</string>
+    <string name="detReservaRealiza">Detalle de Reserva</string>
+    <string name="metodosPagos">Metodos de Pagos</string>
+    <string name="agregarTarjeta">Registro de Tarjeta</string>
+    <string name="title_activity_menu_admin">Menú Administrador</string>
+
+    <string name="dashboardUsuario">Dashboard Usuario</string>
+    <string name="dashboardReclamo">Dashboard Reclamo</string>
+    <string name="dashboardReserva">Dashboard Reserva</string>
+
+    <string name="listadoReserva">Listado Reservas</string>
+    <string name="listadoReclamo">Listado Reclamos</string>
+    <string name="listadoCliente">Listado Cliente</string>
+    <string name="listadoPetwalker">Listado Petwalker</string>
+
+    <string name="Cliente">Detalle de Cliente</string>
+    <string name="Petwalker">Detalle de Petwalker</string>
+    <string name="Reserva">Detalle de Reserva</string>
+    <string name="Reclamo">Detalle de Reclamo</string>
+
+    <string name="RegistrarCliente">Registro de Cliente</string>
+    <string name="RegistrarPetwalker">Registro de Petwalker</string>
+
+    <string name="ActualizarCliente">Actualizar Cliente</string>
+    <string name="ActualizarPetwalker">Actualizar Petwalker</string>
+    <string name="ActualizarReserva">Actualizar Reserva</string>
+    <string name="ActualizarReclamo">Actualizar Reclamo</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

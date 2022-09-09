@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfilA"
+            android:icon="@drawable/account"
+            android:title="Perfil" />
+    </group>
+
+    <item android:title="Dashboards">
+        <menu>
+            <item
+                android:id="@+id/nav_dbUSU"
+                android:icon="@drawable/viewdashboard"
+                android:title="Dashboard Usuario" />
+            <item
+                android:id="@+id/nav_dbRECL"
+                android:icon="@drawable/viewdashboard"
+                android:title="Dashboard Reclamo" />
+            <item
+                android:id="@+id/nav_dbRES"
+                android:icon="@drawable/viewdashboard"
+                android:title="Dashboard Reservas" />
+        </menu>
+    </item>
+
+    <item android:title="Mantenimientos">
+        <menu>
+            <item
+                android:id="@+id/nav_clienteA"
+                android:icon="@drawable/tablelarge"
+                android:title="Clientes" />
+            <item
+                android:id="@+id/nav_petwalkerA"
+                android:icon="@drawable/tablelarge"
+                android:title="Petwalker" />
+            <item
+                android:id="@+id/nav_reservaA"
+                android:icon="@drawable/tablelarge"
+                android:title="Reservas" />
+            <item
+                android:id="@+id/nav_reclamoA"
+                android:icon="@drawable/tablelarge"
+                android:title="Reclamos" />
+        </menu>
+    </item>
+
+    <item android:title="Configuración">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_backup"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Generar Backup" />
+                <item
+                    android:id="@+id/nav_cerrarA"
+                    android:icon="@drawable/logout"
+                    android:title="Cerrar Sesión"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

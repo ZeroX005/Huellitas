@@ -1,0 +1,18 @@
+CLIENTE
+-------
+Usuario : jos123
+Contraseña : 123456
+
+
+
+PETWALKER
+---------
+Usuario : rau12
+Contraseña : 123456
+
+
+
+ADMIN
+-----
+Usuario : ful12
+Contraseña : 123456
